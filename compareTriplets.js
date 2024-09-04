@@ -15,7 +15,11 @@ function compareTriplets(a, b) {
     
 }
 
- let a = [5, 12, 23];
- let b = [33, 5, 60];
+ function main(){
+    let a = [5, 12, 23];
+    let b = [33, 5, 60];
 
-console.log(compareTriplets(a, b));
+    console.log(compareTriplets(a, b));
+ }
+
+ main();
